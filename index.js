@@ -12,6 +12,7 @@ app.get('/',(req,res)=>{
     return res.send("vikesh");
 });
 app.use('/upload',uploadRouter);
+app.use('/uploads',express.static('./uploads'));
 
 
 app.listen(PORT,()=>{
