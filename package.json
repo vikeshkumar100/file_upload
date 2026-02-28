@@ -1,0 +1,28 @@
+{
+  "name": "file_upload",
+  "version": "1.0.0",
+  "description": "file upload using multer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikeshkumar100/file_upload.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikeshkumar100/file_upload/issues"
+  },
+  "homepage": "https://github.com/vikeshkumar100/file_upload#readme",
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "multer": "^2.1.0",
+    "nodemon": "^3.1.14"
+  }
+}
